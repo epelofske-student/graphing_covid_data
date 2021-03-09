@@ -12,6 +12,6 @@ plt.xticks(rotation=30)
 modified_dates = [x_axis_date[i] if i%9==0 else "" for i in range(len(x_axis_date))]
 plt.xticks(modified_dates, fontsize=10)
 plt.yticks(fontsize=15)
-plt.rcParams['figure.figsize'] = (15, 6)
+plt.rcParams['figure.figsize'] = (25, 10)
 plt.tight_layout()
-plt.show()
+plt.savefig("Total Positive Cases New Mexico")
